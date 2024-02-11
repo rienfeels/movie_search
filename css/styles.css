@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    270deg,
+    rgb(49, 96, 130) 40%,
+    rgb(119, 53, 157) 60%
+  );
+
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  /* background-color: #fff; */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+}
+
+html {
+  background: linear-gradient(
+    270deg,
+    rgb(119, 53, 157) 40%,
+    rgb(49, 96, 130) 60%
+  );
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  color: antiquewhite;
+}
+
+div {
+  background: linear-gradient(
+    270deg,
+    rgb(119, 53, 157) 40%,
+    rgb(49, 96, 130) 60%
+  );
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  flex: 1;
+  color: antiquewhite;
+}
+
+input {
+  flex: 2;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+button#resetBtn {
+  background-color: #dc3545;
+  transition: background-color 0.3s ease;
+}
+
+button#resetBtn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+#movieInfo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.input__container--variant {
+  background: linear-gradient(to bottom, #f3fff9, #f3fff9);
+  border-radius: 30px;
+  max-width: 13em;
+  padding: 1em 1em;
+}
+
+.shadow__input--variant {
+  filter: blur(25px);
+  border-radius: 30px;
+  background-color: #f3fff9;
+  opacity: 0.5;
+}
+
+.input__button__shadow--variant {
+  border-radius: 15px;
+  background-color: #07372c;
+  padding: 10px;
+  border: none;
+}
+
+.input__button__shadow--variant:hover {
+  background-color: #3c6659;
+}
+
+.input__search--variant {
+  width: 13em;
+  align-items: center;
+  border-radius: 13em;
+  outline: none;
+  border: none;
+  padding: 0.8em;
+  font-size: 1.2em;
+  color: #002019;
+  background-color: transparent;
+}
+
+.input__search--variant::placeholder {
+  color: #002019;
+  opacity: 0.7;
+}
+
+.input__container--variant {
+  background: linear-gradient(to bottom, #f3fff9, #f3fff9);
+  border-radius: 1.5em;
+  max-width: 14em;
+  padding: 1em;
+  box-shadow: 0em 1em 3em #beecdc64;
+}
